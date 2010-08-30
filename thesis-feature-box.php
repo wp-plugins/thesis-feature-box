@@ -110,5 +110,5 @@ function wdc_thesis_feature_box_content(){
 
 add_action('thesis_hook_feature_box', 'wdc_thesis_feature_box_content');
 
-add_filter('wdc_plugins', array('cmAWB', 'wdc_plugins'));
+// add_filter('wdc_plugins', array('cmAWB', 'wdc_plugins'));
 ?>
