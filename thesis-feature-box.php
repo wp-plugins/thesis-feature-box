@@ -21,7 +21,7 @@ $exit_msg = 'Thesis Feature Box for WordPress requires Wordpress 2.8 or newer. <
 
 if (version_compare($wp_version, "2.8","<")){ exit ($exit_msg); }
 
-require_once 'wdc/wdc.class.php';
+// require_once 'wdc/wdc.class.php';
 
 //Avoid name collisions.
 if ( !class_exists('WPTFeatureBox')) 
@@ -110,5 +110,5 @@ function wdc_thesis_feature_box_content(){
 
 add_action('thesis_hook_feature_box', 'wdc_thesis_feature_box_content');
 
-add_filter('wdc_plugins', array('cmAWB', 'wdc_plugins'));
+// add_filter('wdc_plugins', array('cmAWB', 'wdc_plugins'));
 ?>
